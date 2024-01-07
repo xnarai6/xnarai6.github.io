@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        body {
+            background: url('your-wave-image.jpg') center center fixed;
+            background-size: cover;
+            animation: backgroundAnimation 30s ease infinite;
+        }
+
+        @keyframes backgroundAnimation {
+            0% {
+                background-position: 0% 50%;
+            }
+            50% {
+                background-position: 100% 50%;
+            }
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+    </style>
+    <title>khkim profile</title>
+</head>
+<body class="font-sans">
+
+    <!-- Profile Section -->
+    <div class="container mx-auto mt-8 flex items-center justify-center flex-col">
+        <!-- Profile Picture -->
+        <img src="your-profile-picture.jpg" alt="Profile Picture" class="rounded-full w-32 h-32 mb-4">
+
+        <!-- Nickname -->
+        <h2 class="text-2xl font-semibold mb-2">Your Nickname</h2>
+
+        <!-- Buttons for Social Media Links -->
+        <div class="flex space-x-4">
+            <a href="https://example.com" target="_blank" rel="noopener noreferrer" class="bg-blue-500 text-white py-2 px-4 rounded-md hover:bg-blue-600 transition duration-300">Visit Website</a>
+            <a href="https://twitter.com/example" target="_blank" rel="noopener noreferrer" class="bg-blue-400 text-white py-2 px-4 rounded-md hover:bg-blue-500 transition duration-300">Twitter</a>
+            <a href="https://linkedin.com/in/example" target="_blank" rel="noopener noreferrer" class="bg-indigo-500 text-white py-2 px-4 rounded-md hover:bg-indigo-600 transition duration-300">LinkedIn</a>
+        </div>
+    </div>
+
+</body>
+</html>
